@@ -27,14 +27,6 @@ func main() {
 			checkLink(l, c)
 		}(l)
 	}
-
-	// cicle := 0
-
-	// if cicle == len(links) {
-	// 	time.Sleep(5 * time.Second)
-	// 	cicle = 0
-	// }
-	// cicle++
 }
 
 func checkLink(link string, c chan string) {
